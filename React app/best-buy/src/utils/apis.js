@@ -1,0 +1,3 @@
+const getDataByName=({query})=>{
+    fetch(``)
+}
