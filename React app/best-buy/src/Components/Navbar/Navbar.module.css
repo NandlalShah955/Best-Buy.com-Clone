@@ -8,6 +8,7 @@
     position: sticky;
     overflow: hidden;
     top: 0;
+    
   }
   .nav_top {
     display: flex;
@@ -95,6 +96,7 @@
     padding: 0.5rem 2rem;
     align-items: center;
     justify-content: space-between;
+   
   }
   .nav_bottom a {
     color: #ffff;
@@ -199,4 +201,34 @@
     .nav_bottom a {
       font-size: 13px;
     }
+  }
+  .hidden{
+    width: 270px;
+    height: 130px;
+    background-color: white;
+    margin-left: 800px;
+ 
+    gap: 10px;
+    position: relative;
+    
+  }
+  .hidden>p{
+   
+    color: blue;
+    font-weight: 400;
+font-size: 17px;
+margin:10px;
+margin-top: 10px;
+text-align: left;
+margin-left: 10px;
+  }
+  .topborder{
+    width: 95%;
+    margin: auto;
+    border-top: 1px solid rgb(202, 221, 231);
+ 
+  }
+  .hidden>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
   }

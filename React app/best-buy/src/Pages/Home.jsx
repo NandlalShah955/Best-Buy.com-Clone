@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-// import { Home_carosul } from "../Components/Home_carosul";
+// import { useEffect } from "react";
+//  import { Home_carosul } from "../Components/Home_carosul";
 const Home = () => {
   return (
     <>
@@ -413,6 +413,7 @@ const Home = () => {
         </div>
       </div>
 
+     
       <div className={styles.home_f}>
         <div
           className={styles.flexItem}
@@ -558,6 +559,8 @@ const Home = () => {
       </div>
 
       <div className={styles.home_h}>
+        <div></div>
+        
         {/* {viewed_products.length > 0 && (
           <>
             <h3>Related to items you've viewed (6 items)</h3>
@@ -621,6 +624,77 @@ const Home = () => {
           <button>Learn More</button>
         </div>
       </div>
+
+
+      <h2 className={styles.liketext}>
+       Featured products
+        <span>(6 items)</span>
+      </h2>
+      <div className={styles.home_dealsinpired}>
+        <div>
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510927_sd.jpg;maxHeight=150;maxWidth=225"
+            alt=""
+          />
+          <p>
+          Samsung - 55" Odyssey Ark 4K UHD 165Hz 1ms Quantum Mini-LED Multiview Curved...
+          </p>
+          <h4>$3499.99</h4>
+         
+        </div>
+        <div>
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501588_sd.jpg;maxHeight=150;maxWidth=225"
+            alt=""
+          />
+          <p>Samsung - Galaxy Book2 Pro 13.3" AMOLED Laptop - Intel 12th Gen Core i5 Evo...</p>
+          <h4>$1099.99</h4>
+      
+        </div>
+        <div>
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502273_sd.jpg;maxHeight=150;maxWidth=225"
+            alt=""
+          />
+          <p>
+          Arlo - Essential Spotlight 4 Cameras and Yard Sign, Indoor/Outdoor, Wireless,...
+          </p>
+          <h4>$349.99</h4>
+          <p>$449.99</p>
+        </div>
+        <div>
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6502/6502942_sd.jpg;maxHeight=150;maxWidth=225"
+            alt=""
+          />
+          <p>HP - Spectre x360 2-in-1 13.5" 3K2K Touch-Screen Laptop - Intel Evo Core i7 </p>
+          <h4>$1749.99</h4>
+      
+        </div>
+        <div>
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456123_sd.jpg;maxHeight=150;maxWidth=225"
+            alt=""
+          />
+          <p>Ring - Floodlight Cam Wired Pro Outdoor Wireless 1080p Surveillance Camera - Black
+</p>
+          <h4>$249.99</h4>
+         
+        </div>
+        <div>
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504380_sd.jpg;maxHeight=150;maxWidth=225"
+            alt=""
+          />
+          <p>
+          Dell - Inspiron 2-in-1 16” FHD+ Touch Laptop – 12th Gen Intel Evo i7 – 16GB..
+          </p>
+          <h4>$1199.99</h4>
+          <p>1349.99</p>
+        </div>
+      </div>
+
+
       <div className={styles.home_h}>
         {/* {featured_products.length > 0 && (
           <>

@@ -8,9 +8,26 @@ import { Link } from "react-router-dom";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import StoreOutlinedIcon from '@mui/icons-material/StoreOutlined';
 import { AppContext } from "../../Context/AppContext";
+import { useState } from "react";
+
+
+
 const Navbar = () => {
   const {cartData,auth}=useContext(AppContext)
-  return (
+ const [isShown,setisShown]=useState(false)
+ 
+ 
+ const handleshowdiv=()=>{
+  
+  setisShown(true)
+}
+const handlehidediv=()=>{
+  setisShown(false)
+}
+  
+ 
+ 
+ return (
     <div className={styles.navbar}>
       <div className={styles.nav_top}>
         <Link to="/">
@@ -58,10 +75,16 @@ const Navbar = () => {
           <Link to="/d">Credit Cards</Link>
           <Link to="/e">Gift Cards</Link>
           <Link to="/f">Gift Ideas</Link>
-          <Link to="/g">
-            More <span>⌵</span>
+          <Link to="/" >Health & Wellness</Link>
+          <Link to="" onClick={handleshowdiv}>
+            More <span >⌵</span>
           </Link>
         </div>
+
+       
+
+
+
         <div className={styles.nav_bottom_right}>
           {auth===false?<Link to="/signin" className={styles.account_nav_bottom}>
             <span>
@@ -83,6 +106,14 @@ const Navbar = () => {
       </div>
       <MobileView />
     </div>
+  
+  
+  
+  
+  
+  
+  
+  
   );
 
   function MobileView() {
@@ -112,6 +143,23 @@ const Navbar = () => {
             <SearchIcon />
           </div>
         </div>
+        {isShown && <div className={styles.hidden}>
+
+<p>
+Best Buy Outlet
+</p>
+<div className={styles.topborder}></div>
+<p>
+Best Buy Business
+</p>
+<div className={styles.topborder}></div>
+<p onClick={handlehidediv}>
+  <span>X</span>
+  
+  Close
+</p>
+</div>}
+      
       </>
     );
   }
