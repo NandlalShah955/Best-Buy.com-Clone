@@ -1,0 +1,26 @@
+.filters {
+    width: 20%;
+    height: 800px;
+    overflow-y: scroll;
+    border: 1px solid #c5cbd5;
+    position: sticky;
+    top: 0;
+  }
+  .filters > div {
+    border-bottom: 1px solid #c5cbd5;
+  }
+  
+  .filterBox h3 {
+    padding: 20px 0 0 20px;
+  }
+  .filterBox > div {
+    padding: 5px 0 20px 20px;
+  }
+  
+  .category a {
+    display: block;
+    margin-left: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: #0457c8;
+  }
