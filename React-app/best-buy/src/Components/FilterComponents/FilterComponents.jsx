@@ -1,4 +1,4 @@
-import { Checkbox, FormControlLabel, FormGroup } from "@mui/material";
+import { Checkbox, FormControlLabel, FormGroup, } from "@mui/material";
 import React from "react";
 import styles from "./Filter.module.css";
 import { Link } from "react-router-dom";

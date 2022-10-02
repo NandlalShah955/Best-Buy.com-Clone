@@ -1,5 +1,6 @@
 import React, { useState,useEffect, useContext } from "react";
 import FilterComponents from "../Components/FilterComponents/FilterComponents";
+import { Skeleton } from "@mui/material";
 import SelectSmall from "../Components/SelectComponents/SelectSmall";
 import styles from "./Products.module.css";
 import StarIcon from "@mui/icons-material/Star";
@@ -40,9 +41,15 @@ setLoading(true)
     .catch((err)=>setError(true))
 },[page])
   
-if(loading){
-return <h1>loading</h1>
-}
+// if(loading){
+// return (
+// <>
+
+// <CircularProgress height={50}/>
+
+// </>
+// )
+// }
 
 
 
@@ -59,7 +66,27 @@ return (
           </div>
         </div>
         {loading ? (
-          <h2 style={{ textAlign: "center" }}>Loading....</h2>
+          <h2 style={{ textAlign: "center" }}><Skeleton />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" /><Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation="wave" /><Skeleton animation="wave" />
+
+<Skeleton animation="wave" /><Skeleton animation="wave" />
+<Skeleton animation="wave" /><Skeleton animation="wave" />
+
+<Skeleton animation="wave" />
+<Skeleton animation="wave" />
+<Skeleton animation={false} /></h2>
         ) : error ? (
           <h2>something went wrong</h2>
         ) : (
