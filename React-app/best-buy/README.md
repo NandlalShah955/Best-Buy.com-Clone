@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Bestbuy.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> [Best Buy](https://www.bestbuy.com/) is a provider of consumer technology products and services. The Company offers a range of merchandise and services to its customers, including computing and mobile phones, consumer electronics, appliances, entertainment and other products. Its services include consultation, delivery, design, health-related services, installation, memberships, repair, set-up, technical support, and warranty-related services.
 
-## Available Scripts
+> Cloned BestBuy.com website during the construct week at [Masai School](https://masaischool.com/). Completed the project in six days with a team of six members and implemented the maximum user centric functionality.
 
-In the project directory, you can run:
+## Overview of our work 👉 [Click here](https://bestbuyclonebynandlal.netlify.app/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Features
 
-### `npm test`
+- Collection of wide range of products
+- Login with user details stored in State
+- User can add products to cart 🛒 and can initiate order
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technology used 
 
-### `npm run build`
+- HTML
+- CSS
+- JavaScript
+- React
+- Material UI
+- Git & GitHub
+- Vs code
+- Netlify 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Lessons Learned
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Gain excessive knowledge on application of HTML, CSS , JS ,React and Frameworks like Material UI .
+- Got to know how to Complete any project alone.
+- Enjoyed the process of learning and creating the product.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Overview of our work
 
-### `npm run eject`
+## **Home Page**
+*This is Landing page of our website*
+![Screenshot](https://www.linkpicture.com/q/BB3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **SignUp Page** 
+*SignUp to register with our website*
+*All details of the users will be stored in the local storage.*
+![Screenshot](https://i.postimg.cc/HkXkDd52/BB8.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Login Page** 
+*In order to continue shopping login with user details*
+![Screenshot](https://www.linkpicture.com/q/BB2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **Product Page** 
+*User can select from variety of products and can filter or sort accordingly*
+![Screenshot](https://www.linkpicture.com/q/BB4.png)
 
-## Learn More
+## **Cart Page**
+*User can increase or decrease the quantity of products*
+![Screenshot](https://www.linkpicture.com/q/BB5.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Contributor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Nandlal Shah
+> Github: [sushank678](https://github.com/NandlalShah955)
+Worked on Complete App 
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
