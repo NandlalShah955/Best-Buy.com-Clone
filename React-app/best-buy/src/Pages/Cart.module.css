@@ -47,6 +47,7 @@
     background: #ffe000;
     border: none;
     color: #1d252c;
+    cursor: pointer;
   }
   .qty {
     display: flex;

@@ -4,15 +4,16 @@ import { Skeleton } from "@mui/material";
 import SelectSmall from "../Components/SelectComponents/SelectSmall";
 import styles from "./Products.module.css";
 import StarIcon from "@mui/icons-material/Star";
-import { Link, useParams } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import LocalOfferOutlinedIcon from "@mui/icons-material/LocalOfferOutlined";
 import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
-import { Checkbox, FormControlLabel, FormGroup } from "@mui/material";
+import { Checkbox, FormControlLabel, } from "@mui/material";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Pagination from "../Components/Pagination/Pagination";
 import { AppContext } from "../Context/AppContext";
+
 
 const Products = () => {
 const [error,setError]=useState(false)
@@ -24,7 +25,8 @@ const Onchange=(val)=>{
     setPage(val)
 }
 const {cartData,setCartData}=useContext(AppContext)
-
+const {auth}=useContext(AppContext)
+const navigate=useNavigate()
 
 useEffect(()=>{
 
@@ -175,8 +177,24 @@ return (
                   </div>
                   <button onClick={()=>{
                     setCartData([...cartData,{...item,qty:1}])
+                    // <Alert severity="success"></Alert>
+                
+            { if(auth===true){
+             alert("item added successfully")
+             }
+             else{
+              alert("login first") 
+              navigate('/signin')
+              // {
+              //   <Link to='/login'></Link>
+              // }
+              <Alert severity="success">
+  <AlertTitle>Success</AlertTitle>
+  This is a success alert — <strong>check it out!</strong>
+</Alert>
+             }
+             }
                     
-                    console.log(cartData)
                   }}>
                     <ShoppingCartIcon /> <span>Add to Cart</span>
                   </button>
