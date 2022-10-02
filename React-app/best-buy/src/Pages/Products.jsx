@@ -187,11 +187,7 @@ return (
               navigate('/signin')
               // {
               //   <Link to='/login'></Link>
-              // }
-              <Alert severity="success">
-  <AlertTitle>Success</AlertTitle>
-  This is a success alert — <strong>check it out!</strong>
-</Alert>
+           
              }
              }
                     

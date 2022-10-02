@@ -779,7 +779,7 @@ $('.carrerslider').slick({
       <div className={styles.home_dealsinpired}>
         <div>
           <img
-            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510927_sd.jpg;maxHeight=150;maxWidth=225"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=272;maxWidth=400"
             alt=""
           />
           <p>

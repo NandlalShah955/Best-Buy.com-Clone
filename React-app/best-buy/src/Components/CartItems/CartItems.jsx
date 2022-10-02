@@ -58,7 +58,7 @@ const removeFromCart = (item,id) =>{
                 <div className={styles.qty}>
                   <span>{qty}</span>
                   <button className={styles.inc} onClick={()=>handleQty(+1)}>+</button>
-                  {/* <button className={styles.dec} onClick={()=>handleQty(-1)}>-</button> */}
+                  <button className={styles.dec} onClick={()=>handleQty(-1)}>-</button>
                 </div>
                 <button onClick={()=>removeFromCart(item.id)}>remove</button>
               </div>
