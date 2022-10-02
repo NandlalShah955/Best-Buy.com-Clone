@@ -60,6 +60,6 @@
 # Contributor
 
 #### Nandlal Shah
-> Github: [sushank678](https://github.com/NandlalShah955)
+> Github: [Nandlal955](https://github.com/NandlalShah955)
 Worked on Complete App 
 
